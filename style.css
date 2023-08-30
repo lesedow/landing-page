@@ -19,9 +19,9 @@ header {
     align-items: center;
     background-color: #fff;
     padding: 16px;
+    min-height: 80vh;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
 }    
 
 nav {
@@ -55,7 +55,7 @@ nav {
     width: 1000px;
 }
 
-.right {
+.left {
     width: 400px;
 }
 
@@ -82,6 +82,48 @@ nav {
     margin-top: 14px;
     cursor: pointer;
     color: #fff;
+}
+
+.captains-container {
+    background-color: #f52222;
+    margin-top: 24px;
+    min-height: 80vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.captains-container .title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.captains {
+    display: flex;
+    gap: 24px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
+.captain {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.captain p {
+    margin-top: 10px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 180px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 a {
