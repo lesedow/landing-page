@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+nav,
+header {
+    display: flex;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 12px;
+}
+
+nav {
+    justify-content: space-between;
+    width: 800px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 18px;
+}
+
+.links a {
+    color: #E5E7EB;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
