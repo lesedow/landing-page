@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,800;1,200&display=swap');
 
 html {
     box-sizing: border-box;
@@ -124,6 +124,30 @@ nav {
     height: 180px;
     border-radius: 12px;
     overflow: hidden;
+}
+
+.quote-container {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quote {
+    width: 600px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    margin-top: 8px;
 }
 
 a {
