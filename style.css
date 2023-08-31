@@ -4,6 +4,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
     margin: 0;
@@ -150,8 +154,47 @@ nav {
     margin-top: 8px;
 }
 
+.reminder-container {
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9faf8;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 24px;
+    padding: 36px;
+    width: 1000px;
+    background-color: #f52222;
+}
+
+.reminder-text-container {
+    color: #fff;
+}
+
+.reminder .join {
+   color: #fff;
+   border: 2px solid #fff;
+}
+
+footer {
+    background-color: #f52222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 img {
